@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@1&display=swap');
+</style>
+
+body
+{
+background-image: url ("program.jpg") no-repeat;
+background-size: cover;
+}
+
+div{
+    background: rgba(255, 63, 108,1);
+    color: pink;
+    font-family: 'Xanh Mono', monospace;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+
+}
+.greenBackground{
+
+    background:#89FF90;
+    color: red;
+}
+#sampleId{
+color:black;
+
+}
+.sampleBox{
+background: red;
+margin:  10px 20px 30px 40px;
+padding 40px 30px 20px 40px;
+border: 5px #89FF90 double;
+border-radius: 10px;
+box-shadow: 10px 10px 10px 10px yellow;
+font-size: 50px;
+font-family: Arial;
+font-weight: Bold;
+/* bold , bolder, light or normal can be use in font-weight*/
+font-style: italic;
+text-transform: capitalize;
+/*Text-transform : lowercase, uppercase, capitallize*/
+text-decoration:line-through;
+/*text-decoration: also overline, underline,line-through*/
+text-align: center;
+/*text-align: left, right, center */
+}
+.overFlowsample{
+width: 200px;
+height: 400px;
+overflow-y: scroll; 
+text-indent: 20px;
+
+}
+
