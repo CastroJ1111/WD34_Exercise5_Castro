@@ -1,53 +1,1027 @@
-@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@1&display=swap');
-</style>
 
-body
-{
-background-image: url ("program.jpg") no-repeat;
-background-size: cover;
-}
+    *{
+        margin: 0;
+        padding: 0;
+    }
 
-div{
-    background: rgba(255, 63, 108,1);
-    color: pink;
-    font-family: 'Xanh Mono', monospace;
-    letter-spacing: 5px;
-    word-spacing: 10px;
+    .traveltopalawam{
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(60, 60, 63);  
+    font-style: italic;
+    color: white;
 
-}
-.greenBackground{
 
-    background:#89FF90;
-    color: red;
-}
-#sampleId{
-color:black;
+    }
 
-}
-.sampleBox{
-background: red;
-margin:  10px 20px 30px 40px;
-padding 40px 30px 20px 40px;
-border: 5px #89FF90 double;
-border-radius: 10px;
-box-shadow: 10px 10px 10px 10px yellow;
-font-size: 50px;
-font-family: Arial;
-font-weight: Bold;
-/* bold , bolder, light or normal can be use in font-weight*/
-font-style: italic;
-text-transform: capitalize;
-/*Text-transform : lowercase, uppercase, capitallize*/
-text-decoration:line-through;
-/*text-decoration: also overline, underline,line-through*/
-text-align: center;
-/*text-align: left, right, center */
-}
-.overFlowsample{
-width: 200px;
-height: 400px;
-overflow-y: scroll; 
-text-indent: 20px;
+    .navhead{
+    background-color: rgb(53, 53, 54);
+    height: 80px;
+    text-align: center;
+    padding: 0px;
+    font-size: 10px;
+    font-weight: 20px;
+    color: rgb(15, 14, 14);
+    }
 
-}
+    ul{
+    list-style-type: none;
+    padding:0px;
+    margin:0px;
+    overflow: hidden;
+    background-color: #110e0e;
+    
+    }
+    li a{
+        float: left;
+        display: block;
+        color: rgb(226, 219, 219);
+        padding: 10px 15px;
+        text-align: center;
+        text-decoration: none;
+        min-width:60px;
+        position: relative;
+        left: 35%;
+        font-size: 20px;
+        transition: .4s ease-in-out;
+    }
 
+
+
+    li a:hover{
+        float: left;
+        display: block;
+        color: rgb(182, 182, 103);
+        padding: 10px 15px;
+        text-align: center;
+        text-decoration: none;
+        min-width:60px;
+        position: relative;
+        left: 35%;
+        font-size: 20px;
+        transition: .4s ease-in-out;
+    }
+
+    /*SECTION AREA*/
+    section{
+        margin: 0;
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+
+
+
+
+
+
+
+
+    .pageB1{
+        width: 100%;
+        height: 100vh;
+        background-image: url(palawanp1.jpg);;
+        background-size: cover;
+        background-position: center; 
+    }
+
+
+    .par{
+        width: 80%;
+        color: rgb(248, 229, 229);   
+        text-align: right;
+        height: 300px;
+        font-size: 120px;
+    transform: translateY(70%);
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Xanh Mono', monospace;
+
+    }
+
+
+
+
+
+    /*PAGE 2 SECTION*/
+
+
+    .pageB2{   
+        padding: 50px;
+        font-family: sans-serif;
+        background-image: url();
+        background-color: rgba(155, 152, 158, 0.6);
+        height: auto;
+        width: auto;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+
+
+
+    .HistoryMain{
+        text-align: center;
+        color: black;
+        font-size: 50px;
+        text-shadow: 1px 1px rgba(0, 0, 0, 0.75);
+        font-family: 'Abril Fatface', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Xanh Mono', monospace;
+    }
+
+
+    .HistoryImage{
+        width: 230px;
+        height: 210px;
+        float: left;
+        padding: 0;
+        margin-right:  17px;
+        margin-bottom: 8px;
+        position: relative;
+        border-radius: 10px;
+        font-family: sans-serif;
+        text-align: center;
+    }
+    
+
+    .cultureHeritage{
+        padding: 30px;
+        background-color: bisque;
+        border-radius: 20px;
+        background-attachment:fixed;
+        background-position: center;
+        margin-top: 20px;
+        font-size: 15px;
+        color: rgb(20, 16, 16);
+        width: auto;
+        height: auto;
+        box-shadow: 10px 10px 7px gray;
+        background-color: blanchedalmond;
+
+    }
+  
+
+
+    /*FLOAT IN FLEXBOX*/
+.historyplace{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    left: 40px;
+    top: 30px;
+    }
+
+.santaisabel{
+    padding: 20px;
+    width: 330px;
+    height: 210px;
+    float: left ;
+    }
+
+
+  .santaisabeldes{
+ text-align: center;
+ margin-top: 60px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+    #festivalhead{
+    font-size: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: #181616;
+    font-family: sans-serif;
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Xanh Mono', monospace;
+
+
+    }
+
+
+
+
+
+    .festival{
+        
+        width: 600px;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 8px;
+        padding: 10px;
+        border-radius: 20px;
+        color: black;
+        margin-left: 50px;
+        margin-right: 50px;
+        width: auto;
+        height: auto;
+        box-shadow: 10px 10px 7px gray;
+        background-color: blanchedalmond;
+               font-family:  sans-serif;
+     
+  
+     
+       
+
+
+
+    }
+
+
+
+
+
+
+    .para2{
+        border: 0px;
+        border-radius: 10px;
+        width: 700px;
+        padding: 5px;
+        color: rgb(29, 3, 3);
+        background-color: blanchedalmond;;
+        box-shadow: 10px 10px 5px gray;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Xanh Mono', monospace;
+    /*SHADOW*/
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .arawedandpage{
+        box-shadow: 10px 10px 7px gray;
+        border-radius: 20px;
+        width: 500px;
+        margin-left: auto;
+        margin-top: 35px;
+        margin-right: auto;
+        bottom: 500px;
+        
+        
+    
+    }
+
+    .arawedanpic{
+        height: 300px;
+        width: 500px;
+        border-radius: 20px;
+    }
+
+
+    .arawandescription{
+    text-align: center;
+
+    }
+
+
+    
+
+        
+    .kaguebanPage{
+        box-shadow: 10px 10px 7px gray;
+        border-radius: 20px;
+        width: 500px;
+        margin-left: auto;
+        margin-top: 35px;
+        margin-right: auto;
+        bottom: 500px;
+
+
+    }
+
+    .pistakaguebanpic{
+    border-radius: 20px;
+    width: 500px;
+    height: 400px;
+
+    }
+
+    .pistangkageubandes{
+        text-align: center;
+    }
+
+
+
+
+    .kulambofestPage{
+        box-shadow: 10px 10px 7px gray;
+        border-radius: 20px;
+        width: 500px;
+        margin-left: auto;
+        margin-top: 35px;
+        margin-right: auto;
+        bottom: 500px;
+
+
+    }
+
+    .kulambofestpic{
+        border-radius: 20px;
+        width: 500px;
+        height: 400px;
+        
+        }
+        
+        .kulambofestdes{
+            text-align: center;
+        }
+        
+
+
+        .anihanfestPage{
+            box-shadow: 10px 10px 7px gray;
+            border-radius: 20px;
+            width: 500px;
+            margin-left: auto;
+            margin-top: 35px;
+            margin-right: auto;
+            bottom: 500px;
+    
+        
+        }
+        
+        .anihanfestpic{
+        border-radius: 20px;
+        width: 500px;
+        height: 400px;
+        
+        }
+        
+        .anihanfestdes{
+            text-align: center;
+        }
+        
+
+
+
+
+
+
+        
+
+
+    .bestplace{
+    text-align: center;
+    text-shadow: 10px 10px 2px gray;
+    font-size: 50px;
+    color: #181616;
+    font-style: italic;
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Xanh Mono', monospace;
+
+    }
+
+
+
+
+
+
+
+    /* FLEXBOXX SECTION*/
+    .container1{
+        color: black;
+        flex-direction: column;
+        width: 420px;
+        height: 300px;
+        box-shadow: 10px 10px 5px gray;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        position: relative;
+        margin-left: 90px;
+        border-radius: 20px;
+    }
+                
+            
+    .flex1{       
+        display: block;
+        width: 100%;
+        height: 300px;
+        border-radius: 20px;
+    }
+            
+            
+    .overlay1{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.75);
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+                }
+            
+    .container1:hover .overlay1{
+        height: 100%;
+        }
+            
+            
+    .palawanOverlay{
+        width: 100%;
+        margin-top: 0px;
+        color: white;
+        font-size: 2vw;
+        position: absolute;
+        text-align: center;
+        transform: rotate(-5deg)skewX(-5deg);
+    }
+            
+            
+    .palawanBody{
+        text-align: center;
+            color: white;
+            font-size: 1vw;
+            margin-top: 10%;
+            width: 100%;
+            letter-spacing: 1px; 
+            line-height: 1em;
+            position: absolute;
+            }
+                    
+
+
+
+
+    .container2{ 
+        color: black;
+        flex-direction: column;
+        width: 420px;
+        height: auto;
+        box-shadow: 10px 10px 5px gray;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        margin-top: 30px;
+        }
+
+    .flex2{    
+        display: block;
+        width: 100%;
+        height: 300px;
+        border-radius: 20px;   
+        }
+                    
+                    
+    .overlay2{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.75);
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+        }
+                    
+    .container2:hover .overlay2{
+        height: 100%;
+        }
+            
+    .puertoOverlay{
+        width: 100%;    
+        margin-top: 0px;
+        color: white;
+        font-size: 2vw;
+        position: absolute;
+        text-align: center;
+        transform: rotate(-5deg)skewX(-5deg);
+        }
+                    
+                    
+    .puertoBody{
+    text-align: center;
+    color: white;
+    font-size: 1vw;
+    margin-top: 10%;
+    width: 100%;
+    letter-spacing: 1px; 
+    line-height: 1em;
+    position: absolute;
+    }
+
+
+    .container3{
+        color: black;
+        flex-direction: column;
+        width: 420px;
+        box-shadow: 10px 10px 5px gray;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: 90px;
+        margin-bottom: 60px;
+        position: relative;
+        bottom: 645px;
+    }
+                
+            
+    .flex3{
+        
+        display: block;
+        width: 100%;
+        height: 300px;
+        border-radius: 20px;
+    }
+            
+            
+    .overlay3{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.75);
+            overflow: hidden;
+            width: 100%;
+            height: 0;
+            transition: .5s ease;
+    }
+            
+    .container3:hover .overlay3{
+        height: 100%;
+        }
+            
+            
+    .elnidoOverlay{
+        width: 100%;
+        margin-top: 0px;
+        color: white;
+        font-size: 2vw;
+        position: absolute;
+        text-align: center;
+        transform: rotate(-5deg)skewX(-5deg);
+    }
+            
+            
+    .elnidoBody{
+        text-align: center;
+            color: white;
+            font-size: 1vw;
+            margin-top: 10%;
+            width: 100%;
+            letter-spacing: 1px; 
+            line-height: 1em;
+            position: absolute;
+    }
+                    
+
+
+
+    .container4{
+        color: black;
+        flex-direction: column;
+        width: 420px;
+        height: 300px;
+        box-shadow: 10px 10px 5px gray;
+        border-radius: 5px; 
+        position: relative;   
+        margin-left: 90px;
+        margin-top: 30px;
+        bottom: 345px;
+        border-radius: 20px;
+    
+    }
+                
+            
+    .flex4{
+            
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+            
+            
+    .overlay4{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.75);
+            overflow: hidden;
+            width: 100%;
+            height: 0;
+            transition: .5s ease;
+    }
+            
+    .container4:hover .overlay4{
+        height: 100%;
+        }
+            
+            
+    .coronOverlay{
+        width: 100%;
+        margin-top: 0px;
+        color: white;
+        font-size: 2vw;
+        position: absolute;
+        text-align: center;
+        transform: rotate(-5deg)skewX(-5deg);
+    }
+            
+            
+    .coronBody{
+        text-align: center;
+            color: white;
+            font-size: 1vw;
+            margin-top: 10%;
+            width: 100%;
+            letter-spacing: 1px; 
+            line-height: 1em;
+            position: absolute;
+    }
+                    
+
+
+
+    .container5{
+        color: black;
+        width: 420px;
+        box-shadow: 10px 10px 5px gray;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: 90px;
+        margin-top: 30px;
+        position: relative;
+        height: 300px;
+        bottom: 675px;
+
+        
+    }
+                
+            
+    .flex5{
+
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+    }
+            
+            
+    .overlay5{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.75);
+            overflow: hidden;
+            width: 100%;
+            height: 0;
+            transition: .5s ease;
+    }
+            
+    .container5:hover .overlay5{
+        height: 100%;
+        }
+            
+            
+    .portbaronOverlay{
+        width: 100%;
+        margin-top: 0px;
+        color: white;
+        font-size: 2vw;
+        position: absolute;
+        text-align: center;
+        transform: rotate(-5deg)skewX(-5deg);
+    }
+            
+            
+    .portbaronBody{
+        text-align: center;
+            color: white;
+            font-size: 1vw;
+            margin-top: 10%;
+            width: 100%;
+            letter-spacing: 1px; 
+            line-height: 1em;
+            position: absolute;
+    }
+                    
+
+
+
+
+
+
+
+
+    /*PAGE AND CULTURE AREAS*/
+
+
+    .page1B{
+
+    border-radius: 20px;
+    background-color: rgb(235, 190, 134);   
+    position: relative;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    }
+
+
+
+
+    .foodscultureHead{
+    padding: 20px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    width: auto;
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Xanh Mono', monospace;
+
+    }
+
+    .foodsandculture{
+    border-radius: 30px;
+    position: relative;
+    right: 80px;
+    font-family: sans-serif;
+    margin-left: 90px;
+    }
+
+
+
+    .bagnetfood{
+    padding: 20px;
+    font-family: sans-serif;
+    }
+
+    .bagnetimg{ 
+    height: 200px;
+    position: relative;
+
+
+    }
+
+
+    .bagnet{
+        width: 300px;
+        position: relative;
+        font-family: sans-serif;
+    }
+
+
+
+
+
+
+    .kibaofood{
+        padding: 20px;
+        font-family: sans-serif;
+        }
+        
+        .kibaoimg{ 
+        height: 200px;
+        position: relative;
+        
+        
+        }
+        .kibao{
+            width: 300px;
+            position: relative;
+            font-family: sans-serif;
+        }
+        
+        
+        
+    .friedadobofood{
+        padding: 20px;
+        font-family: sans-serif;
+        }
+        
+        .friedadoboimg{ 
+        height: 200px;
+        position: relative;
+        
+        
+        }
+        
+        
+        .friedadobo{
+            width: 300px;
+            position: relative;
+            font-family: sans-serif;
+        }
+        
+
+
+
+        .seaweedsaladfood{
+            padding: 20px;
+            font-family: sans-serif;
+            }
+            
+            .seaweedsaladimg{ 
+            height: 200px;
+            position: relative;
+            
+            
+            }
+            
+            
+            .seaweedsalad{
+                width: 300px;
+                position: relative;
+                font-family: sans-serif;
+            }
+            
+
+
+
+
+            
+    .taniguefood{
+        padding: 20px;
+        font-family: sans-serif;
+        }
+        
+        .tanigueimg{ 
+        height: 200px;
+        position: relative;
+        }
+        
+        
+    .tanigue{
+        width: 300px;
+        position: relative;
+        font-family: sans-serif;
+    }
+        
+
+
+
+    .Samaralfood{
+        padding: 20px;
+        font-family: sans-serif;
+            }
+            
+    .Samaralimg{ 
+        height: 200px;
+        position: relative;
+            }
+            
+            
+    .Samaral{
+        width: 300px;
+        position: relative;
+        font-family: sans-serif;
+    }
+        
+            
+
+
+    .tamilokfood{
+        padding: 20px;
+        font-family: sans-serif;
+        }
+                
+    .tamilokimg{ 
+        height: 200px;
+        position: relative;   
+    }
+                
+                
+    .tamilok{
+        width: 300px;
+        position: relative;
+        font-family: sans-serif;
+        }
+
+
+
+        .crocodilesisigfood{
+            padding: 20px;
+            font-family: sans-serif;
+            }
+                    
+        .crocodilesisigimg{ 
+            height: 200px;
+            position: relative;   
+                    }
+                    
+                    
+        .crocodilesisig{
+            width: 300px;
+            position: relative;
+            font-family: sans-serif;
+            }
+
+
+
+    .danggitlamayofood{
+        padding: 20px;
+        font-family: sans-serif;
+    }
+                        
+    .danggitlamayoimg{ 
+        height: 200px;
+        position: relative;   
+    }
+                        
+                        
+    .danggitlamayo{
+        width: 300px;
+        position: relative;
+        font-family: sans-serif;
+    }
+        
+
+
+
+    .postcomments{
+
+    position: relative;
+    left: 270px;
+    right: 400px;
+    bottom: 300px;
+    width: 590px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    height: auto;
+    }
+
+    .commentbox{
+    border-radius: 20px;
+    height: 100px;
+    position: relative;
+    text-align: center;
+    right: 60px;
+    
+
+
+    }
+    .commentMessage{
+    position: relative;
+    right: 60px;
+
+    width: 350px;
+    border-radius: 20px;
+
+
+    }
+
+
+
+    .submit{
+        border: 1px solid;
+        border-radius: 20px;
+        background-color: rgb(231, 200, 159);
+        color: rgb(15, 15, 15);
+        position: relative;
+        left: 470px;
+        bottom: 310px;
+        width: 100px;
+        height: 30px;
+
+
+    }
